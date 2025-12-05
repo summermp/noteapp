@@ -1,0 +1,159 @@
+arc/front/notes/
+
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+*.swp
+*.swo
+~$*
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+**/build/
+!src/**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Log file
+*.log
+log/
+logs/
+
+# BlueJ
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# Spring Boot
+**/dev.properties
+**/src/main/resources/dev.properties
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Application specific
+helios*.dat
+data/
+/temp/
+/tmp/
+*.db
+*.sql
+*.h2.db
+*.orig
+
+# Testing
+**/test-output/
+**/test-results/
+**/surefire-reports/
+**/failsafe-reports/
+**/test-report/
+coverage/
+
+# Frontend build directories (if you have a frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+dist-ssr/
+*.tgz
+.cache/
+.parcel-cache/
+
+# Additional for modern development
+*.factorypath
+.classpath.rds
+.springBeans
+
+# Docker
+docker-compose.override.yml
+
+# Kubernetes
+k8s/
+kubernetes/
+
+# SonarQube
+.sonar/
+.sonarlint/
+
+# Flyway
+**/flyway-*.sql
+
+# Lombok
+lombok.config
